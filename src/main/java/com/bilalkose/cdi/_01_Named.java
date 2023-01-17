@@ -65,4 +65,6 @@ public class _01_Named {
 
 // ----------------------------
 
-//
+// @Qualified
+// aynı anda birden fazla proje aktif ancak default olarak çalışacak projeyi seçebiliyoruz
+//@Default ile default ta çalışacak projeyi seçeriz
