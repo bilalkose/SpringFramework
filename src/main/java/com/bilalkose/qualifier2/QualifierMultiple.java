@@ -1,4 +1,4 @@
-package com.bilalkose.qualifier;
+package com.bilalkose.qualifier2;
 
 import javax.inject.Qualifier;
 import java.lang.annotation.*;

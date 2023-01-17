@@ -1,6 +1,4 @@
-package com.bilalkose.qualifier;
-
-import javax.enterprise.inject.Alternative;
+package com.bilalkose.qualifier2;
 
 @QualifierMultiple
 public class Patron2 implements PatronInterface {
