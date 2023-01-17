@@ -48,3 +48,21 @@ public class _01_Named {
 //bütün proje application, bütün proje request scoped olamaz.
 
 // --------------------------
+
+// IOC => Inversion of Control
+// kontrolü tersine çevirme. IOC, Dependency injection yapısına EŞİT DEĞİLDİR. D.I , üretilen bir yapıyı tüketmektir.
+// Core bileşeni, IOC yapısıyla birlikte kullanılıyor spring te. spring bizim yerimize ioc yapısını yapacaktır
+//loose coupling'i sağlayan yapı spring deki IOC yapısı bizim için bunu yapıyor.
+
+//nerelerde kullanıyoruz? => büyük projelerde büyük avantaj. yönetimi spring framework'e veriyoruz.
+
+// ---------------------------
+
+//@Alternative
+//bir interface i birden fazla class implements ettiyse bunlardan sadece bir tanesini seçmeye yarar. aynı anda sadece 1 proje çalısıyor. diğerleri inaktif
+//bizim 2 tane müşterimiz olsun. bir tanesiyle uzun yıllardır çlaısıyoruz. sonra bu eski müşteri biz şuan da sizle çalışmıcaz. ilerde çalısabiliriz
+//bizim de b planımız var. biz artık patron1 yerine patron2 ile çalışıyoruz.
+
+// ----------------------------
+
+//
