@@ -4,7 +4,7 @@ package com.bilalkose.alternative;
 import javax.enterprise.inject.Alternative;
 
 @Alternative
-public class Patron1 implements PatronInterface {
+public class Patron1 implements PatronInterface2 {
 
     //@Alternative: aynı anda sadece 1 tane proje çalışıyor diğerleri kapalı
     @Override
