@@ -8,7 +8,7 @@ import javax.inject.Named;
 @ApplicationScoped
 public class Calisan {
     @Inject
-    private PatronInterface2 patronInterface;
+    private PatronInterface patronInterface;
     public String getData(String data){
         return patronInterface.surum(data);
     }
